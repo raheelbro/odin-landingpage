@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*------------------Styling of body------------------*/
+
+body{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header, .footer, .hero-section{
+  background-color: #1F2937;
+}
+
+.header{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.header-logo{
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header-links{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header-link{
+  text-decoration: none;
+}
+
+.hero-description, .header-link{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-section, .hero-inner-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-inner-section{
+  display: flex;
+  height: 100%;
+  width: 1000px;
+  padding: 80px;
+  
+}
+.hero-left-side{
+  display: flex;
+  height: 200px;
+  width: auto;
+  flex-direction: column;
+  
+}
+.hero-text{
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  width: auto;
+  
+}
+.hero-description{
+  padding: 5px 20px 5px 0px;
+  
+}
+.button{
+  color: white;
+  background-color: #3882f6;
+  padding: 8px 30px 8px 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  border-style: none;
+  width: 120px;
+}
+.hero-img{
+  background-color: grey;
+  height: 200px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  
+}
+
+
+
+
+
+.second-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.second-header{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.cards{
+  display: flex
+  
+}
+
+.illustration{
+  border: 2px solid #3882f6 ;
+  height: 150px;
+  width: 160px;
+  border-radius: 10px;
+}
