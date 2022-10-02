@@ -166,3 +166,49 @@ body{
   width: 160px;
   border-radius: 10px;
 }
+
+.third-section{
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+
+}
+
+.inner-third-section{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.quote{
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.quote-attribution{
+  font-weight: 700;
+  opacity: 0.8;
+  align-self: flex-end;
+  margin-right: 50px;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+
+.copyright-text{
+  font-size: 16px;
+  color:#e5e7eb;
+}
