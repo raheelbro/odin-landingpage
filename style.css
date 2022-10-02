@@ -96,9 +96,9 @@ body{
 .hero-inner-section{
   display: flex;
   height: 100%;
-  width: 1000px;
+  width: 75%;
   padding: 80px;
-  
+  justify-content: space-around;
 }
 .hero-left-side{
   display: flex;
