@@ -201,6 +201,43 @@ body{
 }
 
 
+.fourth-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.signup-box{
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 75%;
+  border-radius: 5px;
+}
+
+.call-to-action{
+  color:#f9faf8;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cta-description{
+  color:#e5e7eb;
+}
+
+.cta-button{
+  color: white;
+  background-color: #3882f6;
+  padding: 8px 30px 8px 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  border-style:solid;
+  width: 120px;
+}
+
 .footer{
   display: flex;
   justify-content: center;
